@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E9EDE3;
+}
+
+.container {
+  width: 100%;
+  max-width: 950px;
+  height: 805px;
+  margin: 30px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  background-color: #E9EDE3;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.info-board {
+  border: 1px solid #9abeca;
+  width: 100px;
+  height: 120px;
+  flex-grow: 1;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 50px;
+  box-shadow: 0px 8px 5px 0px #000;
+  background-color: #DDE9ED;
+}
+.info-board p {
+  margin-bottom: -25px;
+  margin: 30px;
+  margin-left: 20px;
+  color: #302311;
+}
+
+.name {
+  border: 1px solid #9abeca;
+  width: 100px;
+  height: 150px;
+  flex-grow: 2;
+  margin-left: 20px;
+  box-shadow: 0px 8px 5px 0px #000;
+  background-color: #DDE9ED;
+}
+.name img {
+  margin: 20px 30px;
+}
+
+.game-container {
+  border: 1px solid black;
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  background: url(../images/grass.jpg) center;
+  box-shadow: 0px 8px 5px 0px #000;
+  box-sizing: border-box;
+  user-select: none;
+}
+.game-container #img-1 {
+  position: relative;
+  top: -278px;
+  left: 19px;
+  z-index: 10;
+}
+.game-container #img-2 {
+  position: relative;
+  top: -237px;
+  left: 61px;
+  z-index: 10;
+}
+.game-container #img-3 {
+  position: relative;
+  top: -278px;
+  left: 123px;
+  z-index: 10;
+}
+.game-container #img-4 {
+  position: relative;
+  top: -269px;
+  left: 126px;
+  z-index: 10;
+}
+.game-container #img-5 {
+  position: relative;
+  top: -270px;
+  left: 275px;
+  z-index: 10;
+}
+
+.mole-container {
+  position: relative;
+  width: 160px;
+  height: 80px;
+  background: black;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 17px 7px #68461C;
+}
+
+#m-c-1 {
+  top: 126px;
+  left: 63px;
+}
+
+#m-c-2 {
+  top: 88px;
+  left: 362px;
+}
+
+#m-c-3 {
+  top: -34px;
+  left: 675px;
+}
+
+#m-c-4 {
+  top: 95px;
+  left: 169px;
+}
+
+#m-c-5 {
+  top: 15px;
+  left: 573px;
+}
+
+.mole {
+  position: relative;
+  visibility: hidden;
+  transition: 0.1s;
+}
+
+#m-1 {
+  top: -479px;
+  left: -471px;
+}
+
+#m-2 {
+  top: -642px;
+  left: 330px;
+}
+
+#m-3 {
+  top: -684px;
+  left: 463px;
+}
+
+#m-4 {
+  top: -471px;
+  left: -257px;
+}
+
+#m-5 {
+  top: -472px;
+  left: -57px;
+}
+
+#start-btn {
+  width: 82px;
+  background-color: #E4B833;
+  position: relative;
+  top: -300px;
+  left: 400px;
+  z-index: 20;
+  cursor: pointer;
+  box-shadow: 0px 8px 1px 0px #000;
+  border: 1px solid black;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 30px;
+  padding: 10px;
+  visibility: visible;
+}
+
+#start-btn:hover {
+  background-color: #9c7b15;
+}
+
+#start-btn:active {
+  background-color: #9c7b15;
+  box-shadow: 0px 8px 1px 0px #232323;
+  transform: translateY(4px);
+}
+
+.pop {
+  visibility: visible;
+  transform: translateY(-43px);
+}
+
+/*# sourceMappingURL=style.css.map */
